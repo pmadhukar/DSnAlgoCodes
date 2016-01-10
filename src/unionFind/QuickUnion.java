@@ -16,11 +16,21 @@ public class QuickUnion {
 		}
 	}
 
+	/*
+	 * My implementation of root() : recursive
+
 	public int root(int p){
 		if( p == id[p] ) return p;
 		return root( id[p] );
 	}
+	*/
 
+	//Sedgewick's implementation : iterative
+	public int root(int p){
+		int i = id[p];
+		while( i != id[i] ) i=id[i];
+		return i;
+	}
 	public boolean find(int p, int q){
 		return root(p) == root(q);
 	}
