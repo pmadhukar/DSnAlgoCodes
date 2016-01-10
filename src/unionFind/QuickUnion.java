@@ -25,10 +25,18 @@ public class QuickUnion {
 	}
 	*/
 
-	//Sedgewick's implementation : iterative
+	//My implementation : iterative
+	/*
 	public int root(int p){
-		int i = id[p];
+		int i = id[p]; //don't know why did this :D
 		while( i != id[i] ) i=id[i];
+		return i;
+	}
+	*/
+
+	//Sedgewick's implementation
+	public int root(int i){
+		while( i != id[i] ) i = id[i];
 		return i;
 	}
 	public boolean find(int p, int q){
