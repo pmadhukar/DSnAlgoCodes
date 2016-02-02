@@ -20,6 +20,10 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		int[] whitelist = {9, 1, 2, 5, 3, 8, 4, 7, 6, 0};
 		Arrays.sort(whitelist);
+
+		for(int i=0; i<whitelist.length; i++){
+			System.out.print(whitelist[i] + " ");
+		}
 	}
 
 }
