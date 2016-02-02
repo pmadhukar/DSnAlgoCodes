@@ -6,8 +6,8 @@ Codes written while learning
 inside src folders, package name is the topic I was going through, in the courses.
 
 Packages starting with 
-algorithms1 => Sedgewick course
-ucsdCourse => UCSD course
+a) algorithms1 => Sedgewick course
+b) ucsdCourse => UCSD course
 
 If package name is algorithms1.unionFind, all the .java files inside are my implementations of various union-Find algos
 e.g.
