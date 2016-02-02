@@ -1,5 +1,9 @@
 # DSnAlgoCodes
-Codes written while learning DS and Algo (Robert Sedgewick Course)
+Codes written while learning DS and Algo (Robert Sedgewick Course on Coursera)
 
 inside src folders, package name is the topic I was going through, in the course.
-so if package name is quickFind => Code written for quick find approach in Union-Find. (My  version of code :P)
+so if package name is unionFind, all the .java files inside are my implementations of various union-Find algos
+e.g.
+=> QuickFind.java  (Code for quick find)
+=> QuickUnion.java (code for quick union)
+
